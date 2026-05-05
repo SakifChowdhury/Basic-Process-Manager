@@ -19,4 +19,4 @@ make
 
 ## Demo
 
-https://github.com/SakifChowdhury/Basic-Process-Manager/raw/main/Project%20Demo.mp4
+<video controls src="https://github.com/SakifChowdhury/Basic-Process-Manager/raw/main/Project%20Demo.mp4" width="100%"></video>
