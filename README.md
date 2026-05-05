@@ -1,6 +1,10 @@
-# Basic Process Manager
+# ⚡ Basic Process Manager: A Deep Dive into Systems Programming
 
-A lightweight, terminal-based process manager for Linux, written in C. This project interfaces directly with the Linux `/proc` virtual filesystem to list, monitor, and control running processes in real-time. 
+Welcome! I built this **terminal-based Process Manager** from scratch in **C** to showcase my understanding of Operating Systems and Low-Level Systems Programming. 
+
+Instead of relying on high-level wrappers, this project goes straight to the kernel level—parsing the Linux `/proc` virtual filesystem to compute live CPU deltas, read memory footprints, and track process states. It heavily leverages **POSIX system calls** (`fork`, `exec`, `kill`, `waitpid`, `setpriority`) and utilizes **Pthreads with Mutex locks** to safely manage a live background UI refresh cycle. 
+
+If you're looking for clean, performant, and thread-safe C code that interacts directly with the Linux kernel, you're in the right place! 🚀
 
 ## Features
 - **Real-Time Monitoring**: View live metrics such as CPU usage, Memory (RSS/VIRT), Process State, and Scheduling Priority.
