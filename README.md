@@ -16,3 +16,7 @@ This project requires a Linux environment (or WSL) and GCC.
 make
 ./process_manager
 ```
+
+## Demo
+
+https://github.com/SakifChowdhury/Basic-Process-Manager/raw/main/Project%20Demo.mp4
