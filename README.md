@@ -19,4 +19,8 @@ make
 
 ## Demo
 
-<video src="Project_Demo.mp4" controls="controls" width="100%"></video>
+<p align="center">
+  <a href="https://www.youtube.com/embed/4A-yltOADQU">
+    <img src="https://img.youtube.com/vi/4A-yltOADQU/hqdefault.jpg" width="600" height="300" alt="Watch the video" />
+  </a>
+</p>
